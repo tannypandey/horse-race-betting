@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/horse-race-betting/static/css/main.073c9b0a.css",
-    "main.js": "/horse-race-betting/static/js/main.171d06d9.js",
-    "static/js/787.17cb6ec2.chunk.js": "/horse-race-betting/static/js/787.17cb6ec2.chunk.js",
-    "static/media/logo.svg": "/horse-race-betting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/horse-race-betting/static/js/main.ce54e0d1.js",
     "index.html": "/horse-race-betting/index.html",
-    "main.073c9b0a.css.map": "/horse-race-betting/static/css/main.073c9b0a.css.map",
-    "main.171d06d9.js.map": "/horse-race-betting/static/js/main.171d06d9.js.map",
-    "787.17cb6ec2.chunk.js.map": "/horse-race-betting/static/js/787.17cb6ec2.chunk.js.map"
+    "main.ce54e0d1.js.map": "/horse-race-betting/static/js/main.ce54e0d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.171d06d9.js"
+    "static/js/main.ce54e0d1.js"
   ]
 }
