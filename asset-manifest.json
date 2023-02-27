@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/horse-race-betting/static/js/main.ce54e0d1.js",
+    "main.js": "/horse-race-betting/static/js/main.03bf6d4b.js",
     "index.html": "/horse-race-betting/index.html",
-    "main.ce54e0d1.js.map": "/horse-race-betting/static/js/main.ce54e0d1.js.map"
+    "main.03bf6d4b.js.map": "/horse-race-betting/static/js/main.03bf6d4b.js.map"
   },
   "entrypoints": [
-    "static/js/main.ce54e0d1.js"
+    "static/js/main.03bf6d4b.js"
   ]
 }
