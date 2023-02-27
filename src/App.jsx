@@ -1,8 +1,11 @@
 import React from 'react'
-import {Typography, MenuItem,FormControl, Select, AppBar,CssBaseline, toolbarClasses, Container} from '@mui/material';
+import {Typography, MenuItem,FormControl, Select, AppBar,Container, toolbarClasses, CssBaseline, CardContent} from '@mui/material';
 import Button from '@mui/material/Button';
 import InputLabel from '@mui/material/InputLabel';
-
+import Form from './signup';
+//import Navbar from './navBar';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
     
 
 const App = () =>{
@@ -22,12 +25,13 @@ const App = () =>{
 
      return (
         <>
+            {/* <div>
+                <Form />
+            </div> */}
             <CssBaseline />
             <AppBar position ='relative'>
                 <toolbarClasses>
-                    <Typography variant = 'h6'>
-                          Hello!
-                    </Typography>
+                    <Form/>
                 </toolbarClasses>
             </AppBar>
             <main>
@@ -42,7 +46,8 @@ const App = () =>{
                     </Container>
                 </div>
                 <div align='center'>
-                    <FormControl>
+                    <Container align='right'>
+                    <FormControl sx={{minWidth:120}}>
                         <InputLabel id='first-bet'>Horse</InputLabel>
                         <Select
                             labelId="first-bet"
@@ -59,7 +64,7 @@ const App = () =>{
                         Place bet and Start
                     </Button>
                     <br></br><br></br>
-                    <FormControl>
+                    <FormControl sx={{minWidth:120}}>
                         <InputLabel id="second-bet">Change Horse</InputLabel>
                         <Select
                             labelId="second-bet"
@@ -75,6 +80,7 @@ const App = () =>{
                     <Button variant = 'contained'>
                         Change Bet
                     </Button>
+                    </Container>
                     <br></br><br></br>
                 </div>
             </main>
